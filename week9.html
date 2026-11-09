@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>건강가정론 9주차 이해 노트</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm 14mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0; background: #f4f2ed; color: #22221f;
+    font-family: "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", sans-serif;
+    font-size: 16.5px; line-height: 1.75; word-break: keep-all; overflow-wrap: break-word;
+  }
+  main { max-width: 760px; margin: 0 auto; background: #fff; padding: 36px 40px 48px; }
+  h1 { font-size: 27px; line-height: 1.3; margin: 0 0 4px; color: #1f4e4a; }
+  .sub { color: #66665f; margin: 0 0 20px; }
+  h2 { font-size: 21px; line-height: 1.4; margin: 0 0 10px; color: #1f4e4a; }
+  section { margin-top: 34px; }
+  p { margin: 0 0 12px; }
+  ul, ol { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 5px; }
+  b { color: #16403c; }
+
+  .lead { background: #eef4f2; border-radius: 10px; padding: 16px 18px; margin-bottom: 8px; }
+  .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 10px 0 14px; font-size: 14.5px; font-weight: 700; color: #1f4e4a; }
+  .flow span { background: #fff; border: 1px solid #b8cdc8; border-radius: 6px; padding: 3px 9px; }
+  .flow i { font-style: normal; color: #7c938e; }
+  .eg { display: inline-block; font-size: 12.5px; font-weight: 700; color: #6b5a24; background: #f6efd8; border-radius: 4px; padding: 0 6px; margin-right: 4px; line-height: 1.6; }
+
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 14px; font-size: 15px; line-height: 1.5; }
+  th, td { border-bottom: 1px solid #deDBd2; padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: #eef4f2; color: #1f4e4a; font-size: 14px; }
+
+  .b { font: inherit; line-height: 1.3; color: transparent; background: #e3ebe8; border: 0; border-bottom: 2px solid #1f4e4a; border-radius: 3px 3px 0 0; padding: 0 5px; margin: 0 1px; cursor: pointer; }
+  .b.on { color: #16403c; font-weight: 700; background: #fbf1d3; }
+  .tools { display: flex; gap: 8px; margin: 8px 0 12px; }
+  .tools button { font: inherit; font-size: 14.5px; font-weight: 700; color: #1f4e4a; background: #fff; border: 1.5px solid #1f4e4a; border-radius: 7px; padding: 4px 12px; cursor: pointer; }
+
+  details.check { border: 1.5px solid #1f4e4a; border-radius: 10px; margin: 14px 0 6px; background: #fff; }
+  details.check summary { cursor: pointer; padding: 10px 14px; font-weight: 700; color: #1f4e4a; }
+  details.check[open] summary { border-bottom: 1px solid #d5e2de; }
+  details.check .a { padding: 10px 14px; }
+  details.check .a p:last-child { margin-bottom: 0; }
+
+  .note { font-size: 14.5px; color: #55554e; border-left: 3px solid #c9a34e; padding: 2px 0 2px 12px; margin: 12px 0; }
+  .keep { break-after: avoid; page-break-after: avoid; }
+
+  @media (max-width: 560px) {
+    main { padding: 22px 18px 36px; }
+    body { font-size: 16px; }
+    table { font-size: 14px; }
+    th, td { padding: 6px 5px; }
+  }
+  @media print {
+    body { background: #fff; font-size: 10.3pt; line-height: 1.6; }
+    main { max-width: none; padding: 0; }
+    h1 { font-size: 19pt; }
+    h2 { font-size: 13pt; }
+    section { margin-top: 6mm; }
+    table { font-size: 9.6pt; }
+    .b { color: #16403c; font-weight: 700; background: none; border-bottom: 1px solid #1f4e4a; padding: 0 1px; }
+    .tools { display: none; }
+    table, tr, li, p, .lead, .note, details.check { break-inside: avoid; page-break-inside: avoid; }
+    h2 { break-after: avoid; page-break-after: avoid; }
+    details.check { margin: 2mm 0 1mm; }
+    details.check summary { padding: 1mm 3mm; list-style: none; }
+    details.check .a { padding: 1mm 3mm; }
+    details.check summary::-webkit-details-marker { display: none; }
+  }
+</style>
+<style>.lobby-nav{background:#fff;border-bottom:1px solid #d9d6cc;padding:9px 16px;text-align:center}.lobby-nav a{color:#1f4e4a;font-weight:700;text-decoration:none;font-size:15px}.lobby-nav a:hover{text-decoration:underline}@media print{.lobby-nav{display:none}}</style>
+</head>
+<body>
+<nav class="lobby-nav"><a href="index.html">← 로비로 돌아가기</a></nav>
+<main>
+  <h1>9주차, 이야기로 이해하기</h1>
+  <p class="sub">프로그램의 개념 · 개발 원리 · 준비와 설계 · 운영과 관리 · 답을 떠올린 뒤 칸을 눌러 확인</p>
+
+  <div class="lead">
+    <b>이 주차를 한 줄로:</b> 프로그램은 필요를 파악하고, 어떤 변화를 만들지 정하고, 구체적으로 설계해서 운영하는 활동임.
+    <div class="flow" style="margin-bottom:0"><span>욕구·문제 파악</span><i>→</i><span>목표 설정</span><i>→</i><span>프로그램 설계</span><i>→</i><span>운영·관리</span><i>→</i><span>평가</span></div>
+  </div>
+  <p class="note">평가는 10주차에서 자세히 다루는 내용이라 시험범위 밖이고, 여기서는 흐름에서 위치만 알면 됨.</p>
+
+  <section>
+    <h2>1. 프로그램이란</h2>
+    <p><b>프로그램</b>은 목적을 달성하기 위해 선택된 활동을 종합적으로 묶어 일목요연하게 제시해 주는 <b>활동 지침</b>임. 누가, 무엇을, 어떻게, 왜, 언제, 어디서, 누구와 할지를 담음. <b>건강가정 프로그램</b>은 가족센터에서 건강가정 구현을 위해 행하는 모든 활동들의 집합체임.</p>
+    <table>
+      <thead><tr><th style="width:17%">구분</th><th>내용</th></tr></thead>
+      <tbody>
+        <tr><td><b>협의</b></td><td>특정 교과과정이나 특별한 주제에 관련된 학습과정. 예: 성교육 과정, 부부대화 프로그램</td></tr>
+        <tr><td><b>광의</b></td><td>특정 시설이나 기관의 후원으로 참여자들이 경험하는 모든 것</td></tr>
+      </tbody>
+    </table>
+    <p>프로그램을 무엇으로 보느냐에 따라 만드는 방법과 평가하는 방법도 달라짐.</p>
+    <table>
+      <thead><tr><th style="width:17%">구분</th><th>'계획' 중심</th><th>'경험' 중심</th></tr></thead>
+      <tbody>
+        <tr><td>관점</td><td>미리 정한 순서대로 잘 실행하는 것이 좋은 프로그램</td><td>참여자가 실제로 겪은 과정이며, 참여자와 진행자에 따라 다름</td></tr>
+        <tr><td>평가</td><td>사전에 정해진 기준에 제한적으로 평가</td><td>프로그램의 결과에 미치는 영향이 무엇인가에 초점</td></tr>
+      </tbody>
+    </table>
+    <details class="check"><summary>확인: 광의의 프로그램이란?</summary><div class="a"><p>특정 시설이나 기관의 후원으로 <b>참여자들이 경험하는 모든 것</b></p></div></details>
+  </section>
+
+  <section>
+    <h2>2. 개발의 세 가지 원리</h2>
+    <table>
+      <thead><tr><th style="width:18%">원리</th><th style="width:34%">묻는 것</th><th>내용</th></tr></thead>
+      <tbody>
+        <tr><td><b>창조성</b></td><td>다른 곳과 무엇이 다른가</td><td>내용과 방법의 혁신성 및 독특성</td></tr>
+        <tr><td><b>현실성</b></td><td>계획된 결과물이 과연 실현가능한가</td><td>주어진 조건과 자원으로 실현될 수 있어야 함</td></tr>
+        <tr><td><b>논리성</b></td><td>계획과 행위가 체계적이고 합리적인가</td><td>목적과 결과가 효율적으로 연결되는 구조</td></tr>
+      </tbody>
+    </table>
+    <p><b>기획</b>이 '무엇을 할지 정하는 생각과 결정'이라면, <b>개발</b>은 '그 결정을 실제 프로그램으로 만들어 내는 일'임.</p>
+    <details class="check"><summary>확인: 프로그램 개발의 세 원리는?</summary><div class="a"><p><b>창조성, 현실성, 논리성</b></p></div></details>
+  </section>
+
+  <section>
+    <h2>3. 욕구 파악: 빈칸 연습</h2>
+    <p>욕구는 목적을 위해 필요한 것이 <b>결핍된 상태</b>임. 욕구 파악은 프로그램을 왜 해야 하는지 객관적으로 보여주는 가장 기초적인 작업임. Bradshaw(1972)는 <b>누가 기준을 설정하느냐</b>에 따라 욕구를 네 가지로 나눔.</p>
+    <div class="tools"><button type="button" data-all="1">빈칸 전부 열기</button><button type="button" data-all="0">빈칸 전부 닫기</button></div>
+    <table>
+      <thead><tr><th style="width:26%">욕구</th><th>기준</th><th style="width:24%">규정하는 주체</th></tr></thead>
+      <tbody>
+        <tr><td><button class="b" type="button">규범적 욕구</button></td><td>전문가의 판단으로 규정. 표준에 못 미치는 상태. 예: 절대빈곤, 어린이 영양</td><td rowspan="2">전문가 혹은 사회</td></tr>
+        <tr><td><button class="b" type="button">상대적 욕구</button></td><td>다른 사람이나 다른 지역과 비교해서 나타남</td></tr>
+        <tr><td><button class="b" type="button">인지적 욕구</button></td><td>사람들이 욕구라고 생각하고 느끼는 것. 주로 사회조사로 파악</td><td rowspan="2">욕구를 가진 이용 당사자</td></tr>
+        <tr><td><button class="b" type="button">표출적 욕구</button></td><td>필요하다고 느낀 욕구가 행동으로 나타난 것. 예: 참여 인원 수, 상담 건수</td></tr>
+      </tbody>
+    </table>
+    <table>
+      <thead><tr><th style="width:30%">파악 방법</th><th>내용</th><th style="width:17%">욕구</th></tr></thead>
+      <tbody>
+        <tr><td><b>직접관찰법</b></td><td>대상 집단에게 직접 물어봄. 사회조사, 심층면접법 등</td><td>인지적</td></tr>
+        <tr><td><b>사례조사</b></td><td>제삼자를 접촉해 증언을 들음. 서비스 통계 이용 등</td><td>표출적</td></tr>
+        <tr><td><b>간접증거 자료조사</b></td><td>관련 정보의 출처로 욕구를 추산. 사회지표 분석 등</td><td>규범적</td></tr>
+      </tbody>
+    </table>
+    <p><b>한계도 짝으로 기억할 것:</b> 표출적 욕구는 욕구를 가진 모든 사람이 지원을 요청하지는 않는다는 한계가 있고, 상대적 욕구는 두 지역의 여러 특성을 무시하고 비교하면 잘못된 결과를 낼 수 있음.</p>
+    <details class="check"><summary>확인: 프로그램 대기자 수나 상담 건수로 알 수 있는 욕구는?</summary><div class="a"><p><b>표출적 욕구</b></p></div></details>
+  </section>
+
+  <section>
+    <h2>4. 목표 설정: 실적이 아니라 변화를 씀</h2>
+    <p>어떤 프로그램에 120명이 참여했고 만족도가 4.82였다고 해서, 목적인 '부모와 자녀의 의사소통 향상'이 이루어졌다고 말할 수는 없음. 목적은 변화를 말하는데 결과는 실적만 말하고 있기 때문임. 그 사이를 채우는 것이 <b>목표</b>임.</p>
+    <table>
+      <thead><tr><th style="width:17%">구분</th><th>묻는 것</th><th>예</th></tr></thead>
+      <tbody>
+        <tr><td><b>사업목적</b></td><td>왜 이 사업을 하는가?</td><td>부모와 자녀의 긍정적 관계를 증진한다.</td></tr>
+        <tr><td><b>성과목표</b></td><td>누구에게 어떤 변화가 생길 것인가?</td><td>참여 부모의 긍정적 의사소통 행동이 증가한다.</td></tr>
+      </tbody>
+    </table>
+    <p><b>성과목표 = 대상 + 변화</b>로 외우면 됨. 설정된 목표는 프로그램 평가의 기준이 될 수 있음.</p>
+    <p><b>바람직한 목표의 조건:</b> 현실 분석과 관련 / <b>결과 중심적</b> / <b>현실적</b> / <b>대상 집단 언급</b> / <b>측정 가능</b> / <b>긍정적 표현</b> / 기관의 소명과 부합</p>
+    <table>
+      <thead><tr><th style="width:38%">잘못된 목표</th><th>놓친 조건</th></tr></thead>
+      <tbody>
+        <tr><td>"가족이 행복해진다"</td><td>측정 가능, 대상 집단</td></tr>
+        <tr><td>"아버지 교육을 10회 운영한다"</td><td>결과 중심</td></tr>
+        <tr><td>"이혼을 줄인다"</td><td>긍정적 표현, 현실성</td></tr>
+        <tr><td>"우리나라 모든 가족의 건강성을 높인다"</td><td>현실성, 대상 집단</td></tr>
+      </tbody>
+    </table>
+    <p><b>산출과 산출결과:</b> '참여자 30명, 10회 운영'은 <b>산출</b>이고, '부모-자녀 대화 시간 증가'는 <b>산출결과</b>임.</p>
+    <details class="check"><summary>확인: "아버지 교육을 10회 운영한다"가 놓친 조건은?</summary><div class="a"><p><b>결과 중심</b>. 무엇을 얼마나 했는지가 아니라 어떤 변화가 생기는지를 써야 함.</p></div></details>
+  </section>
+
+  <section>
+    <h2>5. 프로그램 설계와 운영</h2>
+    <p class="keep">목표가 정해지면 내용을 고르고 구체적인 계획을 세움.</p>
+    <table>
+      <thead><tr><th style="width:27%">내용 선정 기준</th><th>뜻</th></tr></thead>
+      <tbody>
+        <tr><td><b>합목적성</b></td><td>목표와의 연계성</td></tr>
+        <tr><td><b>서비스 대상자 고려</b></td><td>대상자의 필요, 흥미, 능력 수준 등</td></tr>
+        <tr><td><b>포괄성</b></td><td>장단기적 또는 단계적으로 포괄적인 효과</td></tr>
+        <tr><td><b>실용성</b></td><td>현실 속에서 실현가능하고 실생활에 적용</td></tr>
+        <tr><td><b>지역성</b></td><td>지역적 특성 고려</td></tr>
+        <tr><td><b>효율성</b></td><td>시간적·경제적 비용을 고려</td></tr>
+      </tbody>
+    </table>
+    <p><b>설계 구성요소 10가지:</b> 참가자, 실시 주체, 활동 내용, 실시방법, 장비 및 도구, 실시시간, 환경 및 장소, 프로그램 담당자, 경비 및 예산, 프로그램 평가계획</p>
+    <p class="note">구성요소 10가지는 교수님이 '종류 10가지'까지 외울 필요는 없다고 안내하신 경우에 해당할 수 있음. 이름을 한 번 읽어두는 정도로 봐도 됨.</p>
+    <p><b>현장의 흐름:</b> 기획이 실제로는 <b>계획서 작성 → 운영 및 관리 → 보고서 작성</b>으로 이어짐. 계획서는 사업 필요성 및 목적, 사업내용, 기대효과로 구성됨.</p>
+    <details class="check"><summary>확인: 프로그램 내용 선정 기준 여섯 가지는?</summary><div class="a"><p><b>합목적성, 서비스 대상자 고려, 포괄성, 실용성, 지역성, 효율성</b></p></div></details>
+  </section>
+
+  <section>
+    <h2>마지막 점검: 답을 말해본 뒤 눌러서 확인</h2>
+    <details class="check"><summary>1. Bradshaw의 욕구 4유형은?</summary><div class="a"><p>규범적, 인지적, 표출적, 상대적 욕구</p></div></details>
+    <details class="check"><summary>2. 욕구를 규정하는 주체에 따라 네 유형을 나누면?</summary><div class="a"><p>전문가 혹은 사회: <b>규범적, 상대적</b> / 욕구를 가진 이용 당사자: <b>인지적, 표출적</b></p></div></details>
+    <details class="check"><summary>3. 직접관찰법, 사례조사, 간접증거 자료조사로 각각 파악하는 욕구는?</summary><div class="a"><p>직접관찰법은 <b>인지적</b>, 사례조사는 <b>표출적</b>, 간접증거 자료조사는 <b>규범적</b></p></div></details>
+    <details class="check"><summary>4. 사업목적과 성과목표의 차이는?</summary><div class="a"><p>사업목적은 <b>왜 이 사업을 하는가</b>, 성과목표는 <b>누구에게 어떤 변화가 생길 것인가</b></p></div></details>
+    <details class="check"><summary>5. 바람직한 목표의 조건을 말하면?</summary><div class="a"><p>현실 분석과 관련, 결과 중심적, 현실적, 대상 집단 언급, 측정 가능, 긍정적 표현, 기관의 소명과 부합</p></div></details>
+    <details class="check"><summary>6. '참여자 30명'은 산출일까, 산출결과일까?</summary><div class="a"><p><b>산출</b></p></div></details>
+  </section>
+</main>
+<script>
+  document.addEventListener('click', function (e) {
+    if (e.target.classList.contains('b')) { e.target.classList.toggle('on'); return; }
+    var all = e.target.getAttribute && e.target.getAttribute('data-all');
+    if (all !== null && all !== undefined) {
+      document.querySelectorAll('.b').forEach(function (b) { b.classList.toggle('on', all === '1'); });
+    }
+  });
+  window.addEventListener('beforeprint', function () {
+    document.querySelectorAll('details').forEach(function (d) { d.dataset.was = d.open ? '1' : ''; d.open = true; });
+  });
+  window.addEventListener('afterprint', function () {
+    document.querySelectorAll('details').forEach(function (d) { d.open = d.dataset.was === '1'; });
+  });
+</script>
+</body>
+</html>

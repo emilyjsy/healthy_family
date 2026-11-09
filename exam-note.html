@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>건강가정론 시험 대비 노트</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm 14mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0; background: #e9e7e2; color: #1d1d1b;
+    font-family: "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", sans-serif;
+    font-size: 10.2pt; line-height: 1.55; word-break: keep-all; overflow-wrap: break-word;
+  }
+  .sheet { width: 210mm; max-width: 100%; margin: 12px auto; background: #fff; padding: 13mm 14mm 14mm; }
+  .toolbar { position: sticky; top: 0; z-index: 5; background: #1f4e4a; text-align: center; padding: 8px; }
+  .toolbar button { font: inherit; font-weight: 700; color: #1f4e4a; background: #fff; border: 0; border-radius: 6px; padding: 7px 18px; cursor: pointer; }
+
+  h1 { font-size: 20pt; line-height: 1.3; margin: 0 0 2mm; color: #1f4e4a; }
+  .sub { color: #5b5b57; margin: 0 0 6mm; }
+  h2 { font-size: 14.5pt; line-height: 1.3; margin: 0 0 3mm; padding-bottom: 1.5mm; border-bottom: 1.2pt solid #1f4e4a; color: #1f4e4a; }
+  h3 { font-size: 11pt; margin: 4mm 0 1.5mm; color: #1f4e4a; }
+  p { margin: 0 0 2.5mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 5.5mm; }
+  li { margin-bottom: 1mm; }
+  b { font-weight: 700; }
+
+  section { margin-top: 7mm; }
+  section.new { break-before: page; page-break-before: always; margin-top: 0; }
+  .sheet > section:first-of-type { margin-top: 0; }
+
+  .easy { background: #eef4f2; border-left: 2.5pt solid #1f4e4a; padding: 2mm 3mm; margin: 0 0 3mm; }
+  .label { font-weight: 700; margin: 3mm 0 1.5mm; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 3.5mm; font-size: 9.5pt; line-height: 1.45; }
+  th, td { border: 0.6pt solid #a9a9a4; padding: 1.2mm 1.8mm; text-align: left; vertical-align: top; }
+  th { background: #e3ebe8; font-weight: 700; }
+  thead { display: table-header-group; }
+
+  /* 페이지 경계에서 내용이 잘리지 않게 하는 규칙 */
+  table, tr, li, p, .easy, .q, .label { break-inside: avoid; page-break-inside: avoid; }
+  h2, h3, .label { break-after: avoid; page-break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+
+  .q-list { list-style: none; padding: 0; margin: 0; }
+  .q { display: flex; gap: 2mm; margin-bottom: 3.4mm; line-height: 2; }
+  .q .n { flex: 0 0 7mm; font-weight: 700; }
+  .q .t { flex: 1; }
+  .bl { display: inline-block; width: 27mm; border-bottom: 0.7pt solid #1d1d1b; height: 1em; vertical-align: baseline; margin: 0 0.8mm; }
+  .bl.s { width: 12mm; }
+  .bl.l { width: 52mm; }
+  .line { display: block; border-bottom: 0.7pt solid #1d1d1b; height: 7.5mm; }
+  .score { float: right; font-size: 10pt; color: #1d1d1b; font-weight: 400; padding-top: 2mm; }
+
+  @media print {
+    body { background: #fff; font-size: 10pt; }
+    .toolbar { display: none; }
+    .sheet { width: auto; margin: 0; padding: 0; }
+  }
+</style>
+<style>.lobby-nav{background:#fff;border-bottom:1px solid #d9d6cc;padding:9px 16px;text-align:center}.lobby-nav a{color:#1f4e4a;font-weight:700;text-decoration:none;font-size:15px}.lobby-nav a:hover{text-decoration:underline}@media print{.lobby-nav{display:none}}</style>
+</head>
+<body>
+<nav class="lobby-nav"><a href="index.html">← 로비로 돌아가기</a></nav>
+<div class="toolbar"><button type="button" onclick="window.print()">인쇄 / PDF로 저장</button></div>
+<main class="sheet">
+
+<section>
+  <h1>건강가정론 시험 대비 노트</h1>
+  <p class="sub">공부 순서 · 주차별 암기노트 · 빈칸 모의고사 20문제</p>
+
+  <h2>처음부터 공부하는 순서</h2>
+  <p>내용을 잘 몰라도 이 노트를 위에서부터 따라가면 된다. 시험은 20문제 정도이고 대부분 빈칸 단어와 1문장 쓰기라서, 목표는 <b>이해한 뒤 단어를 손으로 꺼내는 것</b>이다.</p>
+  <p class="label">각 주차는 이 3단계로 공부한다.</p>
+  <ol>
+    <li><b>쉽게 말하면</b>을 읽고 무슨 얘기인지 이해한다.</li>
+    <li><b>외울 것</b>의 굵은 글씨를 소리 내어 두 번 읽는다.</li>
+    <li>노트를 덮고 백지에 쓴다. 못 쓴 단어만 표시해서 다시 쓴다.</li>
+  </ol>
+  <table>
+    <thead><tr><th style="width:15%">언제</th><th style="width:30%">할 것</th><th style="width:14%">시간</th><th>끝난 기준</th></tr></thead>
+    <tbody>
+      <tr><td>1일차</td><td>큰 그림</td><td>10분</td><td>7단계를 말로 설명할 수 있다</td></tr>
+      <tr><td>1일차</td><td>6주 건강가정기본법</td><td>2시간</td><td>제3조 정의를 백지에 쓸 수 있다</td></tr>
+      <tr><td>1일차</td><td>4주 이론 5가지</td><td>1시간 30분</td><td>이론마다 1문장과 개념을 쓸 수 있다</td></tr>
+      <tr><td>1일차</td><td>3주 건강가정 개념</td><td>40분</td><td>강점 6개, Olson 3개, 쟁점 4개를 쓸 수 있다</td></tr>
+      <tr><td>2일차</td><td>7주 정책</td><td>1시간</td><td>1~5차 흐름을 쓸 수 있다</td></tr>
+      <tr><td>2일차</td><td>9주 프로그램</td><td>45분</td><td>욕구 4유형을 구분할 수 있다</td></tr>
+      <tr><td>2일차</td><td>8주 가족센터</td><td>40분</td><td>연혁과 4영역을 쓸 수 있다</td></tr>
+      <tr><td>2일차</td><td>2주 변화</td><td>20분</td><td>증감 방향을 말할 수 있다</td></tr>
+      <tr><td>2일차</td><td>모의고사 20문제</td><td>30분</td><td>노트를 덮고 푼다</td></tr>
+      <tr><td>2일차</td><td>틀린 문제 복습 후 재시험</td><td>40분</td><td>틀린 문제를 다 맞힌다</td></tr>
+      <tr><td>시험 직전</td><td>법 빈칸과 이론 1문장만</td><td>30분</td><td>한 번 더 쓴다</td></tr>
+    </tbody>
+  </table>
+  <p>시간이 모자라면 2주, 8주 순서로 줄인다. 법 빈칸은 교수님이 예고했고 이론은 1문장 문제로 예시를 드셨으니, 6주와 4주는 줄이지 않는다.</p>
+</section>
+
+<section>
+  <h2>수업 전체 큰 그림</h2>
+  <p>이 수업은 <b>가족이 변했다 → 법을 만들었다 → 계획을 세웠다 → 센터에서 프로그램으로 실행한다</b>는 한 줄기 이야기다.</p>
+  <ol>
+    <li><b>2주:</b> 저출산, 1인 가구 증가, 가치관 변화로 한국 가족이 달라졌다.</li>
+    <li><b>3주:</b> 그래서 문제 있는 가족만 보지 말고, 모든 가족의 강점을 키우자는 '건강가정' 개념이 중요해졌다.</li>
+    <li><b>4주:</b> 가족을 들여다보는 안경, 즉 이론 5가지를 배운다.</li>
+    <li><b>6주:</b> 이 생각을 담은 건강가정기본법이 만들어졌다.</li>
+    <li><b>7주:</b> 법에 따라 정부가 5년마다 건강가정기본계획을 세운다.</li>
+    <li><b>8주:</b> 그 계획을 지역 현장에서 실행하는 곳이 가족센터다.</li>
+    <li><b>9주:</b> 가족센터의 실제 활동인 프로그램을 만드는 방법을 배운다.</li>
+  </ol>
+</section>
+
+<section class="new">
+  <h2>2주. 건강가정을 둘러싼 변화</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 같은 가족 변화를 '큰일 났다'로 볼 수도, '가족 모양이 다양해졌다'로 볼 수도 있다. 한국 가족은 인구, 가구, 가치관이 모두 바뀌었고, 그래서 문제가 생긴 가족만 돕는 정책으로는 부족해졌다.</p>
+  <p class="label">외울 것</p>
+  <ul>
+    <li>변화를 보는 두 관점: <b>위기</b> vs <b>재구조화</b></li>
+    <li>구조적 변화 + 가치관 변화 = <b>가족의 다양성</b>, 'Family'가 아닌 <b>'Families'</b></li>
+    <li>시각 변화: '가족이 왜 <b>실패</b>하는가' → '가족이 어떻게 <b>성공</b>하는가'</li>
+    <li>흐름: <b>Otto(1962)</b> 가족 강점 연구 → <b>1994년 세계 가족의 해</b> → <b>1997년 경제위기</b> 후 가족문제 부각 → 건강가정기본법</li>
+    <li>정책 방향: 문제 개입 중심의 협소한 정책 → 지속가능하고 <b>보편적인 정책</b></li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:14%">영역</th><th>변화</th></tr></thead>
+    <tbody>
+      <tr><td>인구</td><td>출생아 수·합계출산율 감소, 0~19세 비율 감소, 65세 이상 비율·기대수명 증가, 혼인 감소, 초혼연령·미혼 비율 증가, 이혼은 안정 추세</td></tr>
+      <tr><td>가구</td><td>총 가구 수 증가, 1인 가구 증가, 2~3인 가구 증가(슬라이드 요약 문구. 2015→2025년 표로는 2인 26.1→29.4% 증가, 3인 21.5→18.8% 감소), 4인 가구 감소, 1세대 가구 증가, 2~3세대 가구 감소</td></tr>
+      <tr><td>가치관</td><td>결혼은 '해도 좋고 하지 않아도 좋다', 비혼 동거·외국인과의 결혼 긍정적, 이상적 자녀 수 평균 1.89명</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <thead><tr><th style="width:26%">용어·수치</th><th>내용</th></tr></thead>
+    <tbody>
+      <tr><td>합계출산율</td><td>한 여자가 가임기간(15~49세) 동안 낳을 것으로 예상되는 평균 출생아 수. 2025년 <b>0.799명</b></td></tr>
+      <tr><td>조혼인율·조이혼율</td><td>인구 <b>1000명당</b> 혼인·이혼 건수</td></tr>
+      <tr><td>2025년 출생아 수</td><td>25만 4341명</td></tr>
+      <tr><td>2024년 기대수명</td><td>83.7세</td></tr>
+      <tr><td>2025년 1인 가구</td><td>36.6%</td></tr>
+      <tr><td>이혼숙려제도</td><td>2008년 이후 도입</td></tr>
+    </tbody>
+  </table>
+  <p>2주 슬라이드는 법 제정을 2005년으로 적었는데, 6주에 따르면 2004년 공포, 2005년 1월 1일 시행이다. 시험에서는 6주 기준으로 쓴다.</p>
+</section>
+
+<section class="new">
+  <h2>3주. 건강가정의 개념</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 건강한 가족은 특정 형태의 가족도, 싸움이 없는 가족도 아니다. 어떤 가족이든 강점과 어려움을 함께 갖고 있고, 노력하면 더 건강해질 수 있다는 뜻이다.</p>
+  <p class="label">외울 것</p>
+  <ul>
+    <li>WHO(<b>1948</b>) 건강: 완전한 <b>육체적·정신적·사회적 웰빙</b>의 상태이며, 단순히 질병이나 병약이 없는 것이 아니다.</li>
+    <li>건강의 특성: <b>다차원성, 연속성, 과정, 향상 가능성</b></li>
+    <li>건강가족적 관점: 문제와 결함 중심 → <b>강점과 자원</b> 중심</li>
+    <li><b>Otto(1962)</b> "What is a strong family?": 27가족 조사. 가족강점은 고정된 것이 아니라 유동적이고, 가족생활주기에 따라 변한다.</li>
+    <li>건강한 가족은 태어나는 것이 아니라 <b>만들어지는 것</b>이다(Stinnett &amp; DeFrain, 1985).</li>
+    <li>건강한 가족은 형태가 아니라 <b>기능</b>으로 본다.</li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:42%">DeFrain &amp; Stinnett 가족강점 6개</th><th>뜻</th></tr></thead>
+    <tbody>
+      <tr><td><b>헌신</b></td><td>가족관계에 시간과 에너지를 투자</td></tr>
+      <tr><td><b>감사와 애정</b></td><td>마음만이 아니라 표현까지</td></tr>
+      <tr><td><b>긍정적 의사소통</b></td><td>갈등이 없는 게 아니라 솔직히 말하고 차이를 인정</td></tr>
+      <tr><td><b>함께하는 시간</b></td><td>일상에서 충분히 공유, 양도 중요</td></tr>
+      <tr><td><b>정신적·영적 안녕</b></td><td>희망, 낙관성, 삶의 목적과 가치</td></tr>
+      <tr><td><b>스트레스와 위기 대처능력</b></td><td>함께 대응하고 성장의 기회로 전환</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <thead><tr><th style="width:24%">Olson 순환모델</th><th>내용</th></tr></thead>
+    <tbody>
+      <tr><td><b>응집성</b></td><td>결속과 분리: 분리 - 연결 - 응집 - 속박</td></tr>
+      <tr><td><b>유연성</b></td><td>안정과 변화: 경직 - 조직적 - 융통적 - 혼란</td></tr>
+      <tr><td><b>의사소통</b></td><td>듣기, 말하기, 자기노출, 명료성, 존중과 관심</td></tr>
+    </tbody>
+  </table>
+  <p>두 모형은 경쟁 관계가 아니라 <b>상호보완적</b>이다. DeFrain &amp; Stinnett은 '어떤 강점이 있는가', Olson은 '가족관계가 어떻게 기능하는가'에 초점을 둔다.</p>
+  <p><b>한국형 가족건강성 척도(KFSS, 유영주 외 2013):</b> <b>22문항</b>, 5개 영역은 <b>가족탄력성, 상호 존중과 수용, 질적 유대감, 경제적 안정, 가족문화와 사회참여</b>다.</p>
+  <table>
+    <thead><tr><th style="width:24%">쟁점 4가지(송혜림 외 논문)</th><th style="width:36%">비판</th><th>반론</th></tr></thead>
+    <tbody>
+      <tr><td><b>이분법</b></td><td>건강한 가족과 건강하지 않은 가족으로 나눈다</td><td>건강은 지향하는 <b>연속적 개념</b>이다</td></tr>
+      <tr><td><b>특정 가족형태</b></td><td>핵가족을 전제한다(제8조 근거)</td><td>건강성은 구조나 형태가 아닌 <b>기능</b>이다</td></tr>
+      <tr><td><b>가족위기담론</b></td><td>변화를 위기로 보고 개인 책임으로 돌린다</td><td>법은 가정의 부담을 <b>국가사회가 분담</b>하겠다는 의지를 강조한다</td></tr>
+      <tr><td><b>가족중심주의</b></td><td>혈연·혼인·입양 중심으로 폐쇄적이다(제3조 근거)</td><td><b>생활공동체로서의 가정</b>을 부각하고 제21·22조에 다양한 가족을 예시한다</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="new">
+  <h2>4주. 이론 5가지</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 이론은 가족을 보는 안경이다. 환경을 보면 생태학, 의미와 대화를 보면 상호작용, 역사 속 개인을 보면 생애과정, 가족의 단계를 보면 가족발달, 젠더와 불평등을 보면 여성주의다.</p>
+  <p class="label">이 표의 1문장을 그대로 외운다.</p>
+  <table>
+    <thead><tr><th style="width:14%">이론</th><th style="width:28%">핵심 질문</th><th>1문장 답안</th></tr></thead>
+    <tbody>
+      <tr><td><b>생태학적</b></td><td>가족과 환경은 어떻게 영향을 주고받는가</td><td>가족을 환경과 상호작용하며 상호의존하는 하나의 생태계로 보는 접근이다.</td></tr>
+      <tr><td><b>상호작용적</b></td><td>상호작용 속에서 어떤 의미와 역할을 만드는가</td><td>인간의 행동은 행위자가 부여한 의미로 이해해야 하며, 가족의 의미와 역할은 상호작용 속에서 만들어진다고 보는 접근이다.</td></tr>
+      <tr><td><b>생애과정적</b></td><td>역사와 사회는 삶에 어떻게 새겨지는가</td><td>개인의 삶을 역사적·사회경제적 맥락과 연결해 분석하는 접근이다.</td></tr>
+      <tr><td><b>가족발달적</b></td><td>가족은 어떤 단계와 과업을 거치는가</td><td>가족이 시간에 따라 규범적으로 기대되는 단계와 발달과업을 거치며 변화한다고 보는 접근이다.</td></tr>
+      <tr><td><b>여성주의적</b></td><td>가족 안의 경험은 모두에게 같은가</td><td>여성의 경험을 중심으로 가족을 이해하며 젠더를 사회적으로 구성된 개념으로 보는 접근이다.</td></tr>
+    </tbody>
+  </table>
+  <p><b>가족체계이론(슬라이드에 독립 항목은 없고 7주에 나옴):</b> 가족은 개별 구성원의 단순 합이 아니라 하위체계들이 역동적으로 상호작용하는 체계다.</p>
+
+  <h3>생태학적 접근</h3>
+  <ul>
+    <li><b>Haeckel</b>: 1866년 'Oekologie' 용어 제안 / <b>Richards</b>: 홈 오이콜로지 → 1902년 <b>레이크 플레시드 회의</b>에서 <b>Home Economics(가정학)</b></li>
+    <li><b>Hook &amp; Paolucci(1970)</b>: 생태체계로서의 가족</li>
+    <li><b>Bronfenbrenner(1979)</b>: 마트로시카처럼 겹겹의 환경</li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:14%">체계</th><th>뜻</th><th style="width:27%">예</th></tr></thead>
+    <tbody>
+      <tr><td><b>미시체계</b></td><td>개인이 직접 경험하는 일차적 환경</td><td>가족, 학교, 이웃</td></tr>
+      <tr><td><b>중간체계</b></td><td>둘 이상 환경 간의 관계</td><td>부모-학교, 가족-직장</td></tr>
+      <tr><td><b>외체계</b></td><td>직접 참여하지 않지만 영향을 주고받는 환경</td><td>부모의 직장, 매스미디어</td></tr>
+      <tr><td><b>거시체계</b></td><td>하위체계 전반에 공통된 문화, 제도, 이념</td><td>사회문화, 가치관, 공공정책</td></tr>
+    </tbody>
+  </table>
+
+  <h3>상호작용적 접근</h3>
+  <ul>
+    <li><b>Mead</b>: 상징적 상호작용학파의 시작, 가족 내 사회화 강조</li>
+    <li><b>I</b>: 주체로서의 나 / <b>Me</b>: 객체로서의 나 / Self는 I와 Me의 연속적 상호작용</li>
+    <li><b>쿨리</b>: 거울자아 / <b>토마스</b>: 상황의 정의(실제라고 정의하면 그 결과도 실제가 된다)</li>
+    <li>사회화: 놀이단계 → 게임단계(일반화된 타인) / <b>역할 취하기</b>: 상대의 입장이 되어 보는 것</li>
+  </ul>
+
+  <h3>생애과정적 접근</h3>
+  <ul>
+    <li><b>궤적</b>: 발달과정에서 보이는 변화의 경로</li>
+    <li><b>전이</b>: 궤적 안에서 새 지위나 역할을 맡는 것(이직, 결혼, 자녀 출생)</li>
+    <li><b>전환점</b>: 한 상태에서 다른 상태로 실제적인 변화를 하는 지점</li>
+    <li>생애과정은 <b>개인</b>에, 가족발달은 <b>가족의 전이와 규범적 타이밍</b>에 더 주목한다.</li>
+  </ul>
+
+  <h3>가족발달적 접근</h3>
+  <ul>
+    <li>주요 개념: <b>규범, 지위, 역할, 사건, 전이, 단계, 발달과업</b></li>
+    <li>가족생활주기: <b>가족형성기 → 자녀출산 및 양육기 → 자녀 교육기 → 자녀 성년기 → 자녀 결혼기 → 노년기</b></li>
+    <li>발달과업 비판: 성공에 대한 가치판단이 비과학적이고, 다양한 가족 형태에 적용하기 어렵다.</li>
+  </ul>
+
+  <h3>여성주의적 접근</h3>
+  <ul>
+    <li><b>성(sex)</b>: 출생부터 유전적으로 정해진 생물학적 지위</li>
+    <li><b>젠더(gender)</b>: 성에 부여된 사회적 의미와 행동, 습득된 것</li>
+    <li>제2물결의 관점: <b>급진주의</b>(가부장제), <b>자유주의</b>(교육·참정권), <b>마르크스주의</b>(경제적 억압), <b>사회주의</b>(자본주의+가부장제)</li>
+    <li>쟁점: 가정은 모두에게 안식처인가, 가사노동은 경제적 가치가 있는가</li>
+  </ul>
+</section>
+
+<section class="new">
+  <h2>6주. 건강가정기본법 (가장 중요)</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 가족을 직접 대상으로 한 우리나라 <b>최초의 명시적인 법</b>이다. 문제가 생긴 가족만 나중에 돕던 방식에서, 모든 가정을 미리 지원하는 방식으로 바꿨다. 교수님이 법은 빈칸으로 낸다고 했으니 조문 문장을 그대로 외운다.</p>
+  <p class="label">제정과 구조</p>
+  <ul>
+    <li><b>2004년 2월 9일 공포</b>(법률 제7166호), <b>2005년 1월 1일 시행</b></li>
+    <li>3개 법안 통합: 가정복지기본법안, 건강가정육성기본법안, 가족지원기본법안</li>
+    <li>2005년 3월 주무부처가 보건복지부에서 여성가족부로 이관, 현재는 <b>성평등가족부</b></li>
+    <li>성격: 헌법의 하위 법률이면서 <b>기본법 + 사업법</b></li>
+    <li>법령 위계: 헌법 → 법률 → 대통령령(시행령) → 총리령·부령(시행규칙)</li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:18%">장</th><th>이름</th><th style="width:25%">조문</th></tr></thead>
+    <tbody>
+      <tr><td>제1장</td><td><b>총칙</b></td><td>제1~12조</td></tr>
+      <tr><td>제2장</td><td><b>건강가정정책</b></td><td>제13~20조</td></tr>
+      <tr><td>제3장</td><td><b>건강가정사업</b></td><td>제21~33조</td></tr>
+      <tr><td>제4장</td><td><b>건강가정전담조직 등</b></td><td>제34~35조</td></tr>
+      <tr><td>제5장</td><td><b>보칙</b></td><td>제36~37조</td></tr>
+    </tbody>
+  </table>
+  <p class="label">지향하는 5대 이념</p>
+  <table>
+    <thead><tr><th style="width:58%">이념</th><th>한마디</th></tr></thead>
+    <tbody>
+      <tr><td><b>가정의 건강성 증진</b></td><td>개인 - 가정 - 사회의 상호작용</td></tr>
+      <tr><td><b>생활공동체로서의 가정과 통합적 서비스</b></td><td>잔여적 복지 → <b>보편적 복지</b></td></tr>
+      <tr><td><b>민주적이고 평등한 가족관계, 생활과 문화의 통합</b></td><td>양성평등, 세대 간 민주성</td></tr>
+      <tr><td><b>가정의 자립과 협동, 국가의 지원</b></td><td>'가정에 의한' → '가정을 위한' 복지사회</td></tr>
+      <tr><td><b>사전적·예방적 지원</b></td><td>사후 치료 → 사전 예방</td></tr>
+    </tbody>
+  </table>
+  <p class="label" style="break-before:page;page-break-before:always;margin-top:0">조문: 굵은 글씨가 빈칸 후보</p>
+  <ul>
+    <li><b>제1조 목적:</b> 건강한 <b>가정생활</b>의 영위와 가족의 유지 및 발전을 위한 국민의 <b>권리·의무</b>와 국가 및 지방자치단체 등의 <b>책임</b>을 명백히 하고, <b>가정문제</b>의 적절한 해결방안을 강구하며 가족구성원의 <b>복지증진</b>에 이바지할 수 있는 지원정책을 강화함으로써 <b>건강가정 구현</b>에 기여하는 것을 목적으로 한다.</li>
+    <li><b>제2조 기본이념:</b> 가정은 개인의 <b>기본적인 욕구</b>를 충족시키고 <b>사회통합</b>을 위하여 기능할 수 있도록 유지·발전되어야 한다.</li>
+    <li><b>제3조 가족:</b> <b>혼인·혈연·입양</b>으로 이루어진 사회의 <b>기본단위</b></li>
+    <li><b>제3조 가정:</b> 가족구성원이 <b>생계</b> 또는 <b>주거</b>를 함께 하는 <b>생활공동체</b>로서 구성원의 일상적인 <b>부양·양육·보호·교육</b> 등이 이루어지는 생활단위</li>
+    <li><b>제3조 1인가구:</b> <b>1명</b>이 단독으로 생계를 유지하고 있는 생활단위(2018 추가)</li>
+    <li><b>제3조 건강가정:</b> 가족구성원의 <b>욕구</b>가 충족되고 <b>인간다운 삶</b>이 보장되는 가정</li>
+    <li><b>제3조 건강가정사업:</b> 건강가정을 저해하는 문제의 발생을 <b>예방</b>하고 <b>해결</b>하기 위한 여러 가지 조치와, 가족의 부양·양육·보호·교육 등의 <b>가정기능</b>을 강화하기 위한 사업</li>
+    <li><b>제7조 가족가치:</b> 가족구성원은 <b>부양·자녀양육·가사노동</b> 등 가정생활의 운영에 함께 참여하여야 하고 서로 <b>존중</b>하며 <b>신뢰</b>하여야 한다.</li>
+    <li><b>제8조 혼인과 출산:</b> 모든 국민은 혼인과 출산의 <b>사회적 중요성</b>을 인식하여야 한다.</li>
+    <li><b>제9조:</b> 가족해체 예방</li>
+    <li><b>제12조:</b> 매년 5월은 <b>가정의 달</b>, 5월 15일은 <b>가정의 날</b></li>
+    <li><b>제15조 기본계획:</b> <b>성평등가족부장관</b>은 <b>관계 중앙행정기관의 장</b>과 협의하여 건강가정기본계획을 <b>5년</b>마다 수립하여야 한다.</li>
+    <li><b>제20조:</b> <b>3년</b>마다 <b>가족실태조사</b>를 실시하고 결과를 발표(5년 주기에서 3년 주기로 개정)</li>
+    <li><b>제21조 ④ 사회적 보호가 필요한 가정:</b> <b>한부모가족, 노인단독가정, 장애인가정, 미혼모가정, 공동생활가정, 자활공동체</b></li>
+    <li><b>제32조 건강가정교육:</b> <b>결혼준비교육, 부모교육, 가족윤리교육, 가족가치실현 및 가정생활관련 교육</b></li>
+    <li><b>제35조:</b> <b>건강가정지원센터</b>(현장 이름은 가족센터)</li>
+  </ul>
+  <p><b>제정 의의 3가지:</b> <b>명시적 가족정책</b>, <b>가족정책 전달체계의 확대</b>, <b>가족 관련 법과 정책의 확대</b></p>
+</section>
+
+<section class="new">
+  <h2>7주. 건강가정정책</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 가족정책은 정부가 가족을 위해 하는 일이다. 가족을 직접 겨냥하면 명시적 정책, 가족을 겨냥하지 않았지만 결과적으로 가족에 영향을 주면 암시적 정책이다. 건강가정기본계획은 5년마다 중점이 바뀌었으니 차수별 핵심어를 외운다.</p>
+  <p class="label">외울 것</p>
+  <table>
+    <thead><tr><th style="width:27%">개념</th><th>내용</th></tr></thead>
+    <tbody>
+      <tr><td><b>정책 &gt; 가족정책 &gt; 건강가정정책</b></td><td>건강가정정책은 법 제정 이후 보다 구체적으로 명시된 가족정책</td></tr>
+      <tr><td><b>광의의 가족정책</b></td><td>Kamerman &amp; Kahn(1978): 정부가 가족을 대상으로, 가족을 위하여 행하는 모든 활동</td></tr>
+      <tr><td><b>협의의 가족정책</b></td><td>Moen &amp; Schorr(1987): 가족을 위하여 광범위하게 합의된 일련의 목표</td></tr>
+      <tr><td><b>명시적 가족정책</b></td><td>가족의 네 기능(<b>가족의 형성, 경제적 부양, 자녀양육, 가족돌봄</b>)을 강화·지원. 예: 아동수당, 가족센터 교육·상담</td></tr>
+      <tr><td><b>암시적 가족정책</b></td><td>가족 대상이 아니지만 결과가 간접적으로 영향. 예: 주택, 조세, 노동시간 정책</td></tr>
+      <tr><td><b>제정과정의 두 담론</b></td><td><b>사회적 비용의 절감</b>, <b>사회적 연대의 확보</b></td></tr>
+      <tr><td><b>가족정책 vs 가정정책</b></td><td>사회적 위험 대상 vs 가정적 위험 대상</td></tr>
+      <tr><td><b>세 가지 가족</b></td><td><b>관계</b>로서의 가족, <b>생활</b>로서의 가족, <b>제도</b>로서의 가족</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <thead><tr><th style="width:8%">차수</th><th style="width:14%">기간</th><th style="width:38%">비전</th><th>중점</th></tr></thead>
+    <tbody>
+      <tr><td>1차</td><td>2006~2010</td><td>가족 모두 평등하고 행복한 사회</td><td><b>가족돌봄의 사회화</b></td></tr>
+      <tr><td>2차</td><td>2011~2015</td><td>함께 만드는 행복한 가정, 함께 성장하는 건강한 사회</td><td><b>가족가치의 확산</b></td></tr>
+      <tr><td>3차</td><td>2016~2020</td><td>모든 가족이 함께 행복한 사회 구현</td><td><b>가족관계 증진을 위한 서비스 기반 조성</b></td></tr>
+      <tr><td>4차</td><td>2021~2025</td><td>모든 가족, 모든 가족구성원을 존중하는 사회</td><td>목표: <b>가족 다양성 인정, 평등하게 돌보는 사회</b></td></tr>
+      <tr><td>5차</td><td>2026~2030</td><td><b>모든 가족을 포용하는 행복한 사회</b></td><td>목표: <b>모든 가족의 기본적인 삶 보장, 가족친화적 일터·사회환경 조성</b></td></tr>
+    </tbody>
+  </table>
+  <ul>
+    <li>1~3차 공통점: <b>보편적 지원과 예방적 접근</b></li>
+    <li>4차 비판(진미정, 2021): <b>선별적 지원 지향</b>, <b>관계·생활 측면 소홀</b>, <b>입체적 분석 부족</b>, <b>코로나19 대응 부족</b>. 세 가지 가족 중 <b>제도로서의 가족</b>에 초점을 맞췄다.</li>
+    <li>5차 구조: <b>4개 영역 12개 정책과제 + 추진체계</b></li>
+    <li>5차 4개 영역: <b>포용적 사회 기반 조성, 기본생활 보장 강화, 사회적 돌봄 확충, 일·생활·가족의 균형 강화</b></li>
+    <li>성평등가족부 가족정책관 5개 과: <b>가족정책과, 가족지원과, 아이돌봄지원과, 다문화가족과, 가족친화서비스과</b>(기본계획 총괄은 가족정책과)</li>
+  </ul>
+</section>
+
+<section class="new">
+  <h2>8주. 가족센터 사업</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 법에 적힌 건강가정사업을 지역에서 실제로 하는 곳이 가족센터다. 예전엔 건강가정지원센터와 다문화가족지원센터가 따로 있었는데 합쳐졌다. 시험에는 연혁, 4영역, 조문과 사업의 연결이 나오기 좋다.</p>
+  <p class="label">외울 것</p>
+  <ul>
+    <li>건강가정사업의 특성: <b>다양한 형태의 가정 포괄</b>, <b>한 단위로서의 가정 대상</b>, <b>보편적·예방적 서비스 제공</b></li>
+    <li>연혁: <b>2005 건강가정지원센터 개소 → 2006 결혼이민자가족지원센터 개소 → 2008 다문화가족지원센터로 명칭 변경 → 2016 통합서비스 → 2021 가족센터로 명칭 변경</b></li>
+    <li>2026년 현황: 가족센터 223개, 건강가정지원센터 9개, 다문화가족지원센터 12개</li>
+    <li>사업 분류 변화: 2005년 <b>방법</b>별(교육, 상담, 문화, 기타) → 2025년 <b>가족의 삶의 영역</b>별</li>
+    <li>4영역: <b>가족관계, 가족돌봄, 가족생활, 가족과 함께하는 지역공동체</b></li>
+    <li>접근방법 3가지: <b>사업 영역별</b>(교육·상담·문화·정보제공·네트워킹), <b>가족주기별</b>, <b>생태학적</b>(개인·가정·사회와 연계)</li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:15%">조문</th><th style="width:38%">이름</th><th>나온 사업</th></tr></thead>
+    <tbody>
+      <tr><td>제21조</td><td>가정에 대한 지원</td><td>취약·위기가족 지원</td></tr>
+      <tr><td>제21조의2</td><td>위기가족긴급지원</td><td>재난 시 긴급위기지원</td></tr>
+      <tr><td>제22조</td><td>자녀양육지원의 강화</td><td><b>아이돌봄 지원, 공동육아나눔터</b></td></tr>
+      <tr><td>제25조</td><td>가족부양의 지원</td><td>아이돌봄, 맞벌이가정 일가정양립지원</td></tr>
+      <tr><td>제26조</td><td>민주적이고 양성평등한 가족관계의 증진</td><td><b>부부역할지원, 아버지 역할 지원, 가족상담</b></td></tr>
+      <tr><td>제27조, 제33조</td><td>시민적 역할증진, 자원봉사활동 지원</td><td><b>가족봉사단</b></td></tr>
+      <tr><td>제28조</td><td>가정생활문화의 발전</td><td><b>가족사랑의 날</b>, 가족친화문화프로그램</td></tr>
+      <tr><td>제30조</td><td>가정봉사원</td><td>아이돌보미 파견</td></tr>
+      <tr><td>제31조</td><td>이혼예방 및 이혼가정지원</td><td><b>이혼 전·후 가족지원</b></td></tr>
+      <tr><td>제32조</td><td>건강가정교육</td><td><b>부모역할 지원</b>, 가족가치교육, 노년기 부부지원</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="new">
+  <h2>9주. 프로그램 개발</h2>
+  <p class="easy"><b>쉽게 말하면:</b> 프로그램을 만들 때는 사람들에게 뭐가 필요한지 파악하고, 어떤 변화를 만들지 목표를 정하고, 구체적으로 설계해서 운영한다. 흐름은 <b>욕구·문제 파악 → 목표 설정 → 프로그램 설계 → 운영·관리 → 평가</b>다.</p>
+  <p class="label">외울 것</p>
+  <ul>
+    <li>프로그램: 목적을 달성하기 위해 선택된 활동을 종합적으로 묶어 일목요연하게 제시해 주는 활동 지침</li>
+    <li>개발 원리 3가지: <b>창조성, 현실성, 논리성</b></li>
+    <li>기획이 '무엇을 할지 정하는 생각과 결정'이라면, 개발은 '그 결정을 실제 프로그램으로 만드는 일'</li>
+    <li>욕구: 목적을 위해 필요한 것이 <b>결핍된 상태</b></li>
+  </ul>
+  <table>
+    <thead><tr><th style="width:27%">Bradshaw(1972) 욕구 4유형</th><th>기준</th><th style="width:28%">파악 방법</th></tr></thead>
+    <tbody>
+      <tr><td><b>규범적 욕구</b></td><td>전문가의 판단, 기준에 못 미치는 상태. 예: 절대빈곤</td><td>간접증거 자료조사</td></tr>
+      <tr><td><b>인지적 욕구</b></td><td>사람들이 필요하다고 생각하고 느끼는 것</td><td>직접관찰법(사회조사 등)</td></tr>
+      <tr><td><b>표출적 욕구</b></td><td>실제로 서비스를 얻으려 행동한 것</td><td>사례조사</td></tr>
+      <tr><td><b>상대적 욕구</b></td><td>다른 사람이나 지역과 비교</td><td>지역 간 서비스 수준 비교</td></tr>
+    </tbody>
+  </table>
+  <ul>
+    <li><b>사업목적</b>: 왜 이 사업을 하는가 / <b>성과목표</b>: 누구에게 어떤 변화가 생길 것인가</li>
+    <li><b>성과목표 = 대상 + 변화</b></li>
+    <li>바람직한 목표의 조건: 현실 분석과 관련, <b>결과 중심적</b>, <b>현실적</b>, <b>대상 집단 언급</b>, <b>측정 가능</b>, <b>긍정적 표현</b>, 기관의 소명과 부합</li>
+    <li>프로그램 내용 선정: <b>합목적성, 서비스 대상자 고려, 포괄성, 실용성, 지역성, 효율성</b></li>
+    <li>설계 구성요소 10가지: <b>참가자, 실시 주체, 활동 내용, 실시방법, 장비 및 도구, 실시시간, 환경 및 장소, 프로그램 담당자, 경비 및 예산, 프로그램 평가계획</b></li>
+  </ul>
+</section>
+
+<section class="new">
+  <h2>빈칸 모의고사 20문제<span class="score">점수: &nbsp;&nbsp;&nbsp;&nbsp; / 20</span></h2>
+  <p>노트를 덮고 30분 안에 푼다. 실제 시험 문제가 아니라 교수님이 말한 형식과 슬라이드 내용으로 만든 연습 문제다.</p>
+  <div class="q-list">
+    <div class="q"><span class="n">1.</span><span class="t">가족의 변화를 바라보는 대립되는 두 관점은 <span class="bl"></span>와 <span class="bl"></span>이다.</span></div>
+    <div class="q"><span class="n">2.</span><span class="t">건강가족적 관점은 '가족이 왜 <span class="bl"></span>하는가'에서 '가족이 어떻게 <span class="bl"></span>하는가'로 질문을 바꾸었다.</span></div>
+    <div class="q"><span class="n">3.</span><span class="t">Olson 순환모델의 세 요소는 <span class="bl"></span>, <span class="bl"></span>, <span class="bl"></span>이다.</span></div>
+    <div class="q"><span class="n">4.</span><span class="t">생태학적 접근을 1문장으로 설명하시오.<span class="line"></span><span class="line"></span></span></div>
+    <div class="q"><span class="n">5.</span><span class="t">Bronfenbrenner의 환경체계에서 부모의 직장처럼 직접 참여하지 않지만 영향을 주고받는 환경은 <span class="bl"></span>체계이고, 사회문화·가치관·공공정책은 <span class="bl"></span>체계이다.</span></div>
+    <div class="q"><span class="n">6.</span><span class="t">Mead는 주체로서의 나를 <span class="bl"></span>, 객체로서의 나를 <span class="bl"></span>라고 하였다.</span></div>
+    <div class="q"><span class="n">7.</span><span class="t">생애과정적 접근의 핵심 개념 세 가지는 <span class="bl"></span>, <span class="bl"></span>, <span class="bl"></span>이다.</span></div>
+    <div class="q"><span class="n">8.</span><span class="t">가족발달적 접근을 1문장으로 설명하시오.<span class="line"></span><span class="line"></span></span></div>
+    <div class="q"><span class="n">9.</span><span class="t">젠더(gender)의 뜻을 1문장으로 쓰시오.<span class="line"></span><span class="line"></span></span></div>
+    <div class="q"><span class="n">10.</span><span class="t">건강가정기본법은 <span class="bl s"></span>년 2월 9일 공포되어 <span class="bl s"></span>년 1월 1일 시행되었다. 이 법은 기본법이면서 <span class="bl"></span>적 성격을 포함한다.</span></div>
+    <div class="q"><span class="n">11.</span><span class="t">제2조: 가정은 개인의 <span class="bl"></span>을/를 충족시키고 <span class="bl"></span>을/를 위하여 기능할 수 있도록 유지·발전되어야 한다.</span></div>
+    <div class="q"><span class="n">12.</span><span class="t">제3조: 가족이란 <span class="bl s"></span>·<span class="bl s"></span>·<span class="bl s"></span>으로 이루어진 사회의 기본단위를 말한다. 가정이란 가족구성원이 <span class="bl s"></span> 또는 <span class="bl s"></span>를 함께 하는 생활공동체를 말한다.</span></div>
+    <div class="q"><span class="n">13.</span><span class="t">제3조: 건강가정이란 가족구성원의 <span class="bl"></span>이/가 충족되고 <span class="bl"></span>이/가 보장되는 가정을 말한다.</span></div>
+    <div class="q"><span class="n">14.</span><span class="t">제3조: 건강가정사업이란 건강가정을 저해하는 문제의 발생을 <span class="bl s"></span>하고 <span class="bl s"></span>하기 위한 여러 가지 조치와, 가족의 부양·양육·보호·교육 등의 <span class="bl"></span>을/를 강화하기 위한 사업을 말한다.</span></div>
+    <div class="q"><span class="n">15.</span><span class="t">제7조: 가족구성원은 <span class="bl s"></span>·<span class="bl"></span>·<span class="bl"></span> 등 가정생활의 운영에 함께 참여하여야 한다.</span></div>
+    <div class="q"><span class="n">16.</span><span class="t">제15조: <span class="bl l"></span>은/는 관계 중앙행정기관의 장과 협의하여 건강가정기본계획을 <span class="bl s"></span>년마다 수립한다. 제20조: 가족실태조사는 <span class="bl s"></span>년마다 실시한다.</span></div>
+    <div class="q"><span class="n">17.</span><span class="t">가족을 대상으로 가족의 기능을 강화·지원하는 정책은 <span class="bl"></span> 가족정책, 가족을 직접 대상으로 하지 않았지만 간접적으로 영향을 주는 정책은 <span class="bl"></span> 가족정책이다.</span></div>
+    <div class="q"><span class="n">18.</span><span class="t">제1차 기본계획의 1영역은 <span class="bl l"></span>, 제2차는 <span class="bl l"></span>이다. 제5차 기본계획의 비전은 <span class="bl l"></span><span class="bl l"></span>이다.</span></div>
+    <div class="q"><span class="n">19.</span><span class="t">건강가정지원센터와 다문화가족지원센터는 2016년 <span class="bl"></span>을/를 거쳐 <span class="bl s"></span>년에 <span class="bl"></span>(으)로 명칭을 변경했다. 현재 사업 4영역은 가족관계, <span class="bl"></span>, <span class="bl"></span>, 가족과 함께하는 지역공동체이다.</span></div>
+    <div class="q"><span class="n">20.</span><span class="t">Bradshaw의 욕구 4유형 중 전문가의 판단으로 규정되는 욕구는 <span class="bl"></span> 욕구, 실제 서비스를 얻으려 행동으로 나타난 욕구는 <span class="bl"></span> 욕구이다. 나머지 두 유형은 <span class="bl"></span> 욕구와 <span class="bl"></span> 욕구이다.</span></div>
+  </div>
+</section>
+
+<section class="new">
+  <h2>모의고사 정답</h2>
+  <p>틀린 문제는 번호 옆 주차로 돌아가서 다시 쓴다.</p>
+  <table>
+    <thead><tr><th style="width:8%">번호</th><th>정답</th><th style="width:11%">주차</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>위기, 재구조화</td><td>2주</td></tr>
+      <tr><td>2</td><td>실패, 성공</td><td>2·3주</td></tr>
+      <tr><td>3</td><td>응집성, 유연성, 의사소통</td><td>3주</td></tr>
+      <tr><td>4</td><td>가족을 환경과 상호작용하며 상호의존하는 하나의 생태계로 보는 접근이다.</td><td>4주</td></tr>
+      <tr><td>5</td><td>외, 거시</td><td>4주</td></tr>
+      <tr><td>6</td><td>I, Me</td><td>4주</td></tr>
+      <tr><td>7</td><td>궤적, 전이, 전환점</td><td>4주</td></tr>
+      <tr><td>8</td><td>가족이 시간에 따라 규범적으로 기대되는 단계와 발달과업을 거치며 변화한다고 보는 접근이다.</td><td>4주</td></tr>
+      <tr><td>9</td><td>성에 부여된 사회적 의미와 행동으로, 문화적 요인이며 습득된 것이다.</td><td>4주</td></tr>
+      <tr><td>10</td><td>2004, 2005, 사업법</td><td>6주</td></tr>
+      <tr><td>11</td><td>기본적인 욕구, 사회통합</td><td>6주</td></tr>
+      <tr><td>12</td><td>혼인, 혈연, 입양 / 생계, 주거</td><td>6주</td></tr>
+      <tr><td>13</td><td>욕구, 인간다운 삶</td><td>6주</td></tr>
+      <tr><td>14</td><td>예방, 해결, 가정기능</td><td>6·8주</td></tr>
+      <tr><td>15</td><td>부양, 자녀양육, 가사노동</td><td>6주</td></tr>
+      <tr><td>16</td><td>성평등가족부장관, 5, 3</td><td>6주</td></tr>
+      <tr><td>17</td><td>명시적, 암시적</td><td>7주</td></tr>
+      <tr><td>18</td><td>가족돌봄의 사회화, 가족가치의 확산, 모든 가족을 포용하는 행복한 사회</td><td>7주</td></tr>
+      <tr><td>19</td><td>통합서비스, 2021, 가족센터, 가족돌봄, 가족생활</td><td>8주</td></tr>
+      <tr><td>20</td><td>규범적, 표출적, 인지적, 상대적</td><td>9주</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</main>
+</body>
+</html>

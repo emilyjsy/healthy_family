@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>건강가정론 시험 공부 로비</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm 14mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0; background: #f4f2ed; color: #22221f;
+    font-family: "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", sans-serif;
+    font-size: 16.5px; line-height: 1.65; word-break: keep-all; overflow-wrap: break-word;
+  }
+  main { max-width: 760px; margin: 0 auto; background: #fff; padding: 40px 40px 48px; min-height: 100vh; }
+  h1 { font-size: 29px; line-height: 1.3; margin: 0 0 6px; color: #1f4e4a; }
+  .sub { color: #66665f; margin: 0 0 22px; }
+  h2 { font-size: 19px; line-height: 1.4; margin: 30px 0 12px; color: #1f4e4a; }
+
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .steps li { background: #eef4f2; border-radius: 10px; padding: 13px 15px; }
+  .steps b { display: block; color: #1f4e4a; font-size: 17px; }
+  .steps span { font-size: 14.5px; color: #44443f; }
+
+  a.card { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; border: 1.5px solid #d9d6cc; border-radius: 10px; padding: 13px 16px; margin-bottom: 9px; background: #fff; }
+  a.card:hover, a.card:focus-visible { border-color: #1f4e4a; background: #f6faf8; }
+  a.card:focus-visible { outline: 2px solid #1f4e4a; outline-offset: 2px; }
+  a.main-card { background: #1f4e4a; border-color: #1f4e4a; color: #fff; }
+  a.main-card:hover, a.main-card:focus-visible { background: #18403c; border-color: #18403c; }
+  a.main-card .d { color: #d7e5e1; }
+  a.main-card .go { color: #fff; }
+  .n { flex: 0 0 34px; height: 34px; border-radius: 50%; background: #eef4f2; color: #1f4e4a; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .body { flex: 1; min-width: 0; }
+  .t { font-weight: 700; font-size: 17px; line-height: 1.4; }
+  .d { display: block; font-size: 14.5px; color: #5e5e57; line-height: 1.45; }
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 700; color: #6b5a24; background: #f6efd8; border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }
+  .go { flex: 0 0 auto; color: #1f4e4a; font-weight: 700; }
+
+  @media (max-width: 560px) {
+    main { padding: 26px 18px 36px; }
+    body { font-size: 16px; }
+    h1 { font-size: 25px; }
+    .steps { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: #fff; font-size: 10.3pt; }
+    main { max-width: none; padding: 0; min-height: 0; }
+    h1 { font-size: 19pt; }
+    h2 { font-size: 12.5pt; margin: 5mm 0 2.5mm; break-after: avoid; page-break-after: avoid; }
+    .sub { margin-bottom: 4mm; }
+    .steps li, a.card { break-inside: avoid; page-break-inside: avoid; }
+    a.card { padding: 2mm 3mm; margin-bottom: 1.6mm; }
+    .t { font-size: 11pt; }
+    .d { font-size: 9.5pt; }
+    .steps b { font-size: 11pt; }
+    .steps span { font-size: 9.5pt; }
+    .go { display: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>건강가정론 시험 공부 로비</h1>
+  <p class="sub">20문제 정도 · 대부분 빈칸 단어와 1문장 쓰기 · 논술형 없음</p>
+
+  <ol class="steps">
+    <li><b>1. 이해</b><span>주차별 노트를 읽고 칸을 눌러 확인</span></li>
+    <li><b>2. 암기</b><span>시험 대비 노트의 굵은 글씨를 덮고 백지에 쓰기</span></li>
+    <li><b>3. 실전</b><span>모의고사를 풀고 틀린 것만 다시 외우기</span></li>
+  </ol>
+
+  <h2>암기와 실전</h2>
+  <a class="card main-card" href="exam-note.html">
+    <span class="body"><span class="t">시험 대비 노트</span><span class="d">공부 순서 · 주차별 암기노트 · 빈칸 모의고사 20문제와 정답</span></span>
+    <span class="go">열기 →</span>
+  </a>
+
+  <h2>주차별 이해 노트 (추천 순서)</h2>
+  <a class="card" href="week6.html">
+    <span class="n">1</span>
+    <span class="body"><span class="t">6주차 건강가정기본법<span class="tag">최우선</span></span><span class="d">법의 제정과 이념 · 조문 빈칸 51개</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week4.html">
+    <span class="n">2</span>
+    <span class="body"><span class="t">4주차 이론 5가지<span class="tag">최우선</span></span><span class="d">이론별 시험용 1문장과 핵심 개념</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week3.html">
+    <span class="n">3</span>
+    <span class="body"><span class="t">3주차 건강가정의 개념</span><span class="d">가족강점 6가지 · Olson 순환모델 · 쟁점 4가지</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week7.html">
+    <span class="n">4</span>
+    <span class="body"><span class="t">7주차 건강가정정책</span><span class="d">명시적·암시적 가족정책 · 1~5차 기본계획</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week9.html">
+    <span class="n">5</span>
+    <span class="body"><span class="t">9주차 프로그램 개발</span><span class="d">Bradshaw 욕구 4유형 · 목표 설정 · 설계</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week8.html">
+    <span class="n">6</span>
+    <span class="body"><span class="t">8주차 가족센터 사업</span><span class="d">연혁 · 4영역 · 조문과 사업 연결</span></span>
+    <span class="go">→</span>
+  </a>
+  <a class="card" href="week2.html">
+    <span class="n">7</span>
+    <span class="body"><span class="t">2주차 건강가정을 둘러싼 변화</span><span class="d">위기 vs 재구조화 · 인구, 가구, 가치관의 변화</span></span>
+    <span class="go">→</span>
+  </a>
+</main>
+</body>
+</html>
